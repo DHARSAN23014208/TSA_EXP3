@@ -11,6 +11,7 @@ type to fit the data.
 4. Store the results in an array
 5. Represent the result in graphical representation as given below.
 ### PROGRAM:
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -35,7 +36,7 @@ plt.xlabel('Lags')
 plt.ylabel('ACF Value')
 plt.grid(True)
 plt.show()
-
+```
 ### OUTPUT:
 <img width="587" height="455" alt="image" src="https://github.com/user-attachments/assets/cfb3edd3-115f-4ba3-920e-e72f01d7d7c9" />
 
